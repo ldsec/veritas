@@ -1,0 +1,13 @@
+name,time/op (ns/op),±
+BFV/Encoder/EncodeUint/LogN=14&logQ=438&alpha=2&beta=3-8,4.88278E+05,0%
+BFV/Encoder/DecodeUint/LogN=14&logQ=438&alpha=2&beta=3-8,1.03970E+06,0%
+BFV/Encrypt/LogN=14&logQ=438&alpha=2&beta=3-8,9.04768E+06,0%
+BFV/Decrypt/LogN=14&logQ=438&alpha=2&beta=3-8,4.41186E+06,0%
+BFV/Evaluator/Add/LogN=14&logQ=438&alpha=2&beta=3-8,1.81604E+05,0%
+BFV/Evaluator/MulScalar/LogN=14&logQ=438&alpha=2&beta=3-8,2.95860E+05,0%
+BFV/Evaluator/Mul/deg=1/deg=1/LogN=14&logQ=438&alpha=2&beta=3-8,3.56514E+07,0%
+BFV/Evaluator/Mul/deg=2/deg=2/LogN=14&logQ=438&alpha=2&beta=3-8,2.74067E+07,0%
+BFV/Evaluator/Mul/deg=4/deg=4/LogN=14&logQ=438&alpha=2&beta=3-8,2.74146E+07,0%
+BFV/Evaluator/Relin/LogN=14&logQ=438&alpha=2&beta=3-8,1.56150E+07,0%
+BFV/Evaluator/RotateRows/LogN=14&logQ=438&alpha=2&beta=3-8,1.58824E+07,0%
+BFV/Evaluator/RotateCols/LogN=14&logQ=438&alpha=2&beta=3-8,1.60758E+07,0%

@@ -1,0 +1,13 @@
+name,time/op (ns/op),± 100Kruns Nov 28 c0f814662d3aae232da28f868cc069aed8b1484e
+VCHEBFV/Encoder/EncodeUint/LogN=14&logQ=438&alpha=2&beta=3-48,7.54666E+05,0%
+VCHEBFV/Encoder/DecodeUint/LogN=14&logQ=438&alpha=2&beta=3-48,2.35044E+06,0%
+VCHEBFV/Encrypt/LogN=14&logQ=438&alpha=2&beta=3-48,1.91530E+07,0%
+VCHEBFV/Decrypt/LogN=14&logQ=438&alpha=2&beta=3-48,6.47735E+06,0%
+VCHEBFV/Evaluator/Add/LogN=14&logQ=438&alpha=2&beta=3-48,2.91649E+05,0%
+VCHEBFV/Evaluator/MulScalar/LogN=14&logQ=438&alpha=2&beta=3-48,6.14856E+05,0%
+VCHEBFV/Evaluator/Mul/deg=1/deg=1/LogN=14&logQ=438&alpha=2&beta=3-48,4.07290E+07,0%
+VCHEBFV/Evaluator/Mul/deg=2/deg=2/LogN=14&logQ=438&alpha=2&beta=3-48,5.68195E+07,0%
+VCHEBFV/Evaluator/Mul/deg=4/deg=4/LogN=14&logQ=438&alpha=2&beta=3-48,5.82842E+07,0%
+VCHEBFV/Evaluator/Relin/LogN=14&logQ=438&alpha=2&beta=3-48,3.03066E+07,0%
+VCHEBFV/Evaluator/RotateRows/LogN=14&logQ=438&alpha=2&beta=3-48,3.71031E+07,0%
+VCHEBFV/Evaluator/RotateCols/LogN=14&logQ=438&alpha=2&beta=3-48,3.19575E+07,0%

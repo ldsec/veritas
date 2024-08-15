@@ -1,0 +1,21 @@
+name,time/op (ns/op),± MAC e4030cbd21487ecf092deddb92d26421aed4af75 100runs
+VCHE1/Encoder/EncodeUint/LogN=14&logQ=438&alpha=2&beta=3-8,9.13774E+06,0%
+VCHE1/Encoder/DecodeUint/LogN=14&logQ=438&alpha=2&beta=3-8,1.26540E+06,0%
+VCHE1/Encrypt/LogN=14&logQ=438&alpha=2&beta=3-8,8.02829E+06,0%
+VCHE1/Decrypt/LogN=14&logQ=438&alpha=2&beta=3-8,4.03737E+06,0%
+VCHE1/Evaluator/Add/LogN=14&logQ=438&alpha=2&beta=3-8,2.28837E+05,0%
+VCHE1/Evaluator/MulScalar/LogN=14&logQ=438&alpha=2&beta=3-8,3.24122E+05,0%
+VCHE1/Evaluator/Mul/deg=1/deg=1/LogN=14&logQ=438&alpha=2&beta=3-8,2.48167E+07,0%
+VCHE1/Evaluator/Mul/deg=2/deg=2/LogN=14&logQ=438&alpha=2&beta=3-8,2.48400E+07,0%
+VCHE1/Evaluator/Mul/deg=4/deg=4/LogN=14&logQ=438&alpha=2&beta=3-8,2.48361E+07,0%
+VCHE1/Evaluator/Relin/LogN=14&logQ=438&alpha=2&beta=3-8,1.42854E+07,0%
+VCHE1/Evaluator/RotateRows/LogN=14&logQ=438&alpha=2&beta=3-8,1.45307E+07,0%
+VCHE1/Evaluator/RotateCols/LogN=14&logQ=438&alpha=2&beta=3-8,1.47206E+07,0%
+VCHE1/EvaluatorPlaintext/Add/LogN=14&logQ=438&alpha=2&beta=3-8,7.67060E+04,0%
+VCHE1/EvaluatorPlaintext/MulScalar/LogN=14&logQ=438&alpha=2&beta=3-8,8.51530E+04,0%
+VCHE1/EvaluatorPlaintext/Mul/deg=1/deg=1/LogN=14&logQ=438&alpha=2&beta=3-8,1.53263E+05,0%
+VCHE1/EvaluatorPlaintext/Mul/deg=2/deg=2/LogN=14&logQ=438&alpha=2&beta=3-8,1.57205E+05,0%
+VCHE1/EvaluatorPlaintext/Mul/deg=4/deg=4/LogN=14&logQ=438&alpha=2&beta=3-8,1.58807E+05,0%
+VCHE1/EvaluatorPlaintext/Relin/LogN=14&logQ=438&alpha=2&beta=3-8,6.04880E+04,0%
+VCHE1/EvaluatorPlaintext/RotateRows/LogN=14&logQ=438&alpha=2&beta=3-8,7.33810E+04,0%
+VCHE1/EvaluatorPlaintext/RotateCols/LogN=14&logQ=438&alpha=2&beta=3-8,1.00505E+05,0%

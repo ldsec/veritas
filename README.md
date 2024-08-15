@@ -48,13 +48,14 @@ The code of VERITAS is organized in the following folders:
     - `neural_network` implements machine learning inference in FHE
     - `neural_network_python` implements machine learning training in Python, from which the weights of the model are derived
     - `models` contains the weights of a trained MNIST classifier
+  - `plots` contains Jupyter notebooks and Python utilities that were used to generate the plots in the paper. 
 
 ## Benchmarking
 
 ### Microbenchmarks
 Running `bench.sh` in the root directory will microbenchmark operations for the REP and PE encodings for varying parameter sizes. 
 
-### Benchmarking examples
+### Benchmarking examples / Reproducing timings from the paper
 We use Go's built-in benchmarking tool. In order to reproduce the results from the paper, go the desired directory (e.g., `cd examples/ObliviousRiding/vche_2`), and run the following command (the paper reports benchmarks for 1000 runs):
 ```sh
 go test -run=1000 -bench=. -timeout=60m

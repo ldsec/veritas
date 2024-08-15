@@ -1,0 +1,21 @@
+name,time/op (ns/op),± 100K runs Nov 28 c0f814662d3aae232da28f868cc069aed8b1484e
+VCHE2/Encoder/EncodeUint/LogN=14&logQ=438&alpha=2&beta=3-48,4.91835E+07,0%
+VCHE2/Encoder/DecodeUint/LogN=14&logQ=438&alpha=2&beta=3-48,1.67477E+07,0%
+VCHE2/Encrypt/LogN=14&logQ=438&alpha=2&beta=3-48,2.96798E+07,0%
+VCHE2/Decrypt/LogN=14&logQ=438&alpha=2&beta=3-48,1.87882E+07,0%
+VCHE2/Evaluator/Add/LogN=14&logQ=438&alpha=2&beta=3-48,1.43091E+06,0%
+VCHE2/Evaluator/MulScalar/LogN=14&logQ=438&alpha=2&beta=3-48,1.75479E+06,0%
+VCHE2/Evaluator/RotateRows/LogN=14&logQ=438&alpha=2&beta=3-48,4.79804E+07,0%
+VCHE2/Evaluator/RotateCols/LogN=14&logQ=438&alpha=2&beta=3-48,5.49035E+07,0%
+VCHE2/Evaluator/Mul/deg=1/deg=1/LogN=14&logQ=438&alpha=2&beta=3-48,1.52795E+08,0%
+VCHE2/Evaluator/Mul/deg=2/deg=2/LogN=14&logQ=438&alpha=2&beta=3-48,2.45924E+08,0%
+VCHE2/Evaluator/Mul/deg=4/deg=4/LogN=14&logQ=438&alpha=2&beta=3-48,4.92749E+08,0%
+VCHE2/Evaluator/Relin/LogN=14&logQ=438&alpha=2&beta=3-48,7.81906E+07,0%
+VCHE2/EvaluatorPlaintext/Add/Ct/LogN=14&logQ=438&alpha=2&beta=3-48,6.75610E+04,0%
+VCHE2/EvaluatorPlaintext/MulScalar/LogN=14&logQ=438&alpha=2&beta=3-48,7.38790E+04,0%
+VCHE2/EvaluatorPlaintext/Mul/deg=1/deg=1/LogN=14&logQ=438&alpha=2&beta=3-48,6.46305E+05,0%
+VCHE2/EvaluatorPlaintext/Mul/deg=2/deg=2/LogN=14&logQ=438&alpha=2&beta=3-48,9.17544E+05,0%
+VCHE2/EvaluatorPlaintext/Mul/deg=4/deg=4/LogN=14&logQ=438&alpha=2&beta=3-48,6.46144E+05,0%
+VCHE2/EvaluatorPlaintext/Relin/LogN=14&logQ=438&alpha=2&beta=3-48,3.32590E+04,0%
+VCHE2/EvaluatorPlaintext/RotateRows/LogN=14&logQ=438&alpha=2&beta=3-48,6.37080E+04,0%
+VCHE2/EvaluatorPlaintext/RotateCols/LogN=14&logQ=438&alpha=2&beta=3-48,1.35698E+05,0%

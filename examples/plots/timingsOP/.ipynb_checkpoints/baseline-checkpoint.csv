@@ -1,0 +1,13 @@
+name,time/op (ns/op),± MAC e4030cbd21487ecf092deddb92d26421aed4af75 100runs
+VCHEBFV/Encoder/EncodeUint/LogN=14&logQ=438&alpha=2&beta=3-8,4.24835E+05,0%
+VCHEBFV/Encoder/DecodeUint/LogN=14&logQ=438&alpha=2&beta=3-8,8.88606E+05,0%
+VCHEBFV/Encrypt/LogN=14&logQ=438&alpha=2&beta=3-8,7.89894E+06,0%
+VCHEBFV/Decrypt/LogN=14&logQ=438&alpha=2&beta=3-8,4.00329E+06,0%
+VCHEBFV/Evaluator/Add/LogN=14&logQ=438&alpha=2&beta=3-8,1.60313E+05,0%
+VCHEBFV/Evaluator/MulScalar/LogN=14&logQ=438&alpha=2&beta=3-8,2.49341E+05,0%
+VCHEBFV/Evaluator/Mul/deg=1/deg=1/LogN=14&logQ=438&alpha=2&beta=3-8,2.39812E+07,0%
+VCHEBFV/Evaluator/Mul/deg=2/deg=2/LogN=14&logQ=438&alpha=2&beta=3-8,2.40166E+07,0%
+VCHEBFV/Evaluator/Mul/deg=4/deg=4/LogN=14&logQ=438&alpha=2&beta=3-8,2.39182E+07,0%
+VCHEBFV/Evaluator/Relin/LogN=14&logQ=438&alpha=2&beta=3-8,1.39089E+07,0%
+VCHEBFV/Evaluator/RotateRows/LogN=14&logQ=438&alpha=2&beta=3-8,1.42296E+07,0%
+VCHEBFV/Evaluator/RotateCols/LogN=14&logQ=438&alpha=2&beta=3-8,1.39816E+07,0%
