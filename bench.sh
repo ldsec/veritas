@@ -12,8 +12,8 @@ do
   for ((i=1;i<=RUNS;i++))
   do
 	  echo -e "\tRun #$i"
-	  go test -bench="^BenchmarkVCHE" -run="^$" -timeout=60m  | tee --append "bench.out"
+	  go test -bench="^BenchmarkVCHE" -run="^$" -timeout=60m  | tee -a "bench.out"
   done
-  benchstat -csv bench.out > bench.csv # Aggregate all runs
+  benchstat -format csv bench.out > bench.csv # Aggregate all runs
   cd -
 done
